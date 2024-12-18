@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050f1b98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b2023fb;
+}
+
+.scdn {
+    text-align: left;
+    border:solid;
+    background-color: #232f3e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    align-self: center;
+}
+
+#ForgotForm{
+    text-align: left;
+    border: 1px solid 15px;
+    margin : auto;
+    padding: 8px;
+}
+
+#submitForgot{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f90;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#forgotlabel{
+    font-size: small;
+    text-align: left;
+    color: #f3b65a;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+#forgotinput {
+    width: 85%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#submitForgot:hover {
+    background-color: #0056b3;
+}
